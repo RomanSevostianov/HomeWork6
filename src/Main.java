@@ -27,6 +27,7 @@ public class Main {
             general=salary+general;
             System.out.println("Месяц "+i+"  "+general+" Общая сумма с процентами "+(general+(general/100))+" Проценты  "+general/100);
             y=(general+(general/100))+y;
+
         }
         System.out.println("Заработал за год с процентами  "+y);
     }
